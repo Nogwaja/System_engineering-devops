@@ -1,2 +1,3 @@
 #!/bin/bash
+# Displays all processes whose name contains the word "bash".
 ps aux | grep bash
