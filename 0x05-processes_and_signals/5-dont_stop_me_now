@@ -1,3 +1,7 @@
 #!/bin/bash
-# Displays the PID and command name for all processes containing "bash".
-ps -o pid,comm -C bash
+# A script that runs in an infinite loop, displaying a message every 2 seconds.
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
