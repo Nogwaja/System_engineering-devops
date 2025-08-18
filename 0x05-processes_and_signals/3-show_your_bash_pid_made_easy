@@ -1,2 +1,3 @@
 #!/bin/bash
+# Displays the PID and command name for all processes containing "bash".
 ps -o pid,comm -C bash
